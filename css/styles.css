@@ -5,3 +5,74 @@
 @import url(https://fonts.googleapis.com/css?family=Cantora+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+body {
+	background-image: url(../img/sandpaper.png);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+article {
+	width: 90%;
+	background-color: #FFF;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+header {
+	
+	background-color: #907A46;
+	padding: 10px;
+	font-family: 'Cantora One', sans-serif;
+	font-size: 200%;
+	color: #EEEDEA;
+	line-height: 60px;
+}
+
+header img {
+	height: 60px;
+	float: right;
+	opacity: 0.7;
+}
+
+header img:hover {
+	opacity: 1;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;   
+}
+
+figure {
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+figure img {
+	width: 200px;
+	border: 10px solid #EEE;
+	border-radius: 2px;
+}
+
+figure img:hover {
+	box-shadow: 2px 2px 6px #555;
+	-webkit-transform: scale(1.5) rotate(360deg);
+	-moz-transform: scale(1.5) rotate(360deg);
+	-o-transform: scale(1.5) rotate(360deg);
+	-ms-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg); 
+	 -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;   
+}
+
+figcaption {
+	font-weight: 300px;
+	text-align: center;
+	margin-top: 5px;
+}
